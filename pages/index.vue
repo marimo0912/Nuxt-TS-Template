@@ -1,19 +1,4 @@
 <template lang="pug">
   .top
-    p Hello, World!
+    p poyo555
 </template>
-
-<script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
-
-@Component({
-  layout: 'base',
-})
-export default class IndexPage extends Vue {}
-</script>
-
-<style lang="scss" scoped>
-.top {
-  @include page-base;
-}
-</style>
